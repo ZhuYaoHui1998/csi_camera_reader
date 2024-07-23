@@ -1,6 +1,6 @@
 # Seeed Studio reComputer J401 Nvidia Jetson CSI camera launcher for ROS
 
-This ROS package enables the use of multiple CSI cameras on the Seeed Studio reComputer and visualizes the output in rviz. It supports the reComputer J40/J30 series products, including Nvidia Jetson Orin NX and Orin Nano. The testing environment is Ubuntu 20.04 with ROS Noetic version.
+This ROS package enables the use of multiple CSI cameras on the Seeed Studio reComputer and visualizes the output in rviz. It supports the reComputer J40/J30 series products, including Nvidia Jetson Orin NX and Orin Nano. The testing environment is Jetpack 5.x, Ubuntu 20.04 and ROS Noetic.
 
 ## Getting Start
 ### Installation
