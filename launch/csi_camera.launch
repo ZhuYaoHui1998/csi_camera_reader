@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launch single camera with specified sensor ID -->
+    <arg name="sensor_id" default="1" />
+    <node name="csi_camera_node" pkg="csi_camera_reader" type="csi_camera_node.py" output="screen">
+        <param name="sensor_id" value="$(arg sensor_id)" />
+    </node>
+</launch>
