@@ -37,6 +37,8 @@ def publish_camera_stream(sensor_id):
             break
 
         image_msg = bridge.cv2_to_imgmsg(frame, "bgr8")
+        image_msg.header.stamp = rospy.Time.now()
+        image_msg.header.frame_id = f"camera_{sensor_id}_frame"
         image_pub.publish(image_msg)
         rate.sleep()
 
